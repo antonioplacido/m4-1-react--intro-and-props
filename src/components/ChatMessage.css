@@ -1,0 +1,35 @@
+.avatarpics {
+  border-radius: 50%;
+  height: 40px;
+}
+
+.avaNbody {
+  display: flex;
+}
+
+.messagebody {
+  align-content: center;
+  justify-items: center;
+  background-color: lightgrey;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.userName {
+  padding-left: 40px;
+}
+
+.chat-message {
+  padding-top: 20px;
+}
+
+.userName {
+  padding-bottom: 5px;
+}
+
+.messagebody {
+  font-weight: lighter;
+  font-size: 15px;
+}
