@@ -1,5 +1,5 @@
 .avatarpics {
-  border-radius: 50%;
+  border-radius: 60%;
   height: 40px;
 }
 
@@ -12,13 +12,14 @@
   justify-items: center;
   background-color: lightgrey;
   border-radius: 8px;
-  padding-top: 10px;
+  padding-top: 11px;
   padding-left: 10px;
   padding-right: 15px;
 }
 
 .userName {
   padding-left: 40px;
+  font-size: 14px;
 }
 
 .chat-message {
