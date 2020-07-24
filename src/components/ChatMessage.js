@@ -11,18 +11,30 @@ const ChatMessage = (props) => {
   }
 };
 
-// const ChatMessage = (props) => {
-//   return (
-//     <div className="fullBody">
-//       <div className="chat-message">
-//         <div className="userName">{props.message.user.username}</div>
-//         <div className="avaNbody">
-//           <img className="avatarpics" src={props.message.user.avatar} alt="" />
-//           <div className="messagebody">{props.message.body}</div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+const SentMessage = (props) => {
+  return (
+    <div className="fullBody">
+      <div className="chat-message">
+        <div className="avaNbody">
+          <div className="messagebody">{props.message.body}</div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const ReceivedMessage = (props) => {
+  return (
+    <div className="fullBody">
+      <div className="chat-message">
+        <div className="userName">{props.message.user.username}</div>
+        <div className="avaNbody">
+          <img className="avatarpics" src={props.message.user.avatar} alt="" />
+          <div className="messagebody">{props.message.body}</div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default ChatMessage;
