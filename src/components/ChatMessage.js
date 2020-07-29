@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./ChatMessage.css";
 import { users } from "../data";
 
@@ -13,10 +12,10 @@ const ChatMessage = (props) => {
 
 const SentMessage = (props) => {
   return (
-    <div className="fullBody">
-      <div className="chat-message">
-        <div className="avaNbody">
-          <div className="messagebody">{props.message.body}</div>
+    <div className="fullBody-sent">
+      <div className="chat-message-sent">
+        <div className="avaNbody-sent">
+          <p className="messagebody-sent">{props.message.body}</p>
         </div>
       </div>
     </div>

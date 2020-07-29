@@ -33,6 +33,21 @@
 .messagebody {
   font-weight: lighter;
   font-size: 15px;
+  padding: 10px;
+}
+
+.messagebody-sent {
+  float: right;
+  right: 50px;
+  justify-items: center;
+  background-color: #5eb0e5;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.chat-message-sent {
+  padding: 20px;
 }
 
 /* /test  */
